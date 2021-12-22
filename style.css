@@ -1,0 +1,76 @@
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+.nav, .container-fluid {
+	cursor : pointer;
+	width : 100%;
+	justify-content : center;
+	text-align : center;
+	padding: 2em;
+	font-size : 20px;
+}
+
+.navbar-brand{
+	font-size : 30px;
+	font-family : Playfair Display;
+}
+
+.container a, h3 {
+	align-self : center;
+	padding-bottom : 1em;
+	padding-top : 2em;
+	color : black;
+
+}
+
+.container h3 {
+	text-align : center;
+	font-family : Playfair Display;
+}
+
+.padding-container {
+	height : 5rem;
+	width : 100%;
+}
+
+.btn-primary, .flex-row a {
+	background-color : white;
+	color : black;
+	
+}
+
+.elink, .elink a {
+	color : white;
+	font-size : 23px;
+	font-weight : bold;
+	text-decoration: none;
+}
+
+.footercontainer {
+  width : 100%;
+  display : block-flex;
+  text-align : center;
+  font-family : Playfair Display;
+  font-size : 15px;
+}
+.tailendcontainer {
+  height : 15em;
+}
+
+@media (max-width: 600px)
+{
+	.nav, .container-fluid {
+		padding-bottom: 20px;
+		display : block;
+		text-align : center;
+	}
+}
