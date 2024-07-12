@@ -48,6 +48,10 @@ html {
 	
 }
 
+.carousel-item {
+	height : 400px;
+	width: 400px;
+}
 .elink, .elink a {
 	color : white;
 	font-size : 23px;
